@@ -1,2 +1,2 @@
 # SpringBoot_KAFKA
-integrate spring boot with Kafka learnin purpose
+integrate spring boot with Kafka and build simple rest API for learning purpose
