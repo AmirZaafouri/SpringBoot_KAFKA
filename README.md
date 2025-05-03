@@ -23,22 +23,15 @@ mvn clean install
 
 Download and extract Kafka from the [Apache Kafka Downloads](https://kafka.apache.org/downloads) page.
 
-#### ➤ Start Zookeeper
-
-```bash
-bin/zookeeper-server-start.sh config/zookeeper.properties
-```
 
 #### ➤ Start Kafka Server
 
 ```bash
+# Linux/macOS
 bin/kafka-server-start.sh config/server.properties
-```
 
-#### ➤ Create a Kafka Topic
-
-```bash
-bin/kafka-topics.sh --create --topic demo-topic --bootstrap-server localhost:9092
+# Windows
+bin\windows\kafka-server-start.bat config\server.properties
 ```
 
 ### 🔹 4. Run the Spring Boot Application
@@ -46,14 +39,15 @@ bin/kafka-topics.sh --create --topic demo-topic --bootstrap-server localhost:909
 ```bash
 mvn spring-boot:run
 ```
+#### ➤ Create a Kafka Topic
 
----
+```bash
+# Linux/macOS
+bin/kafka-topics.sh --create --topic demo-topic --bootstrap-server localhost:9092
 
-## ✨ Features
-
-• Kafka Producer & Consumer integration  
-• Spring Boot Kafka configuration examples
-
+# Windows
+bin\windows\kafka-topics.bat --create --topic demo-topic --bootstrap-server localhost:9092
+```
 ---
 
 ## ✅ Prerequisites
@@ -62,20 +56,6 @@ mvn spring-boot:run
 • Apache Kafka 4.0 (running locally or on a remote server)
 
 ---
-
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 📁 How to Add this README
-
-1. Navigate to the `demo` directory in your GitHub repository  
-2. Click on **"Add file"** → **"Create new file"**  
-3. Name the file `README.md`  
-4. Paste this content  
-5. Click **"Commit new file"** to save it
 
 ---
 
