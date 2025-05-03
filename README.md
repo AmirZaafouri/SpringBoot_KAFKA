@@ -70,14 +70,14 @@ bin/kafka-server-start.sh config/server.properties
 bin\windows\kafka-server-start.bat config\server.properties
 ```
 
-#### ➤ Create a Kafka Topic
+#### ➤ Create a Kafka Consumer
 
 ```bash
 # Linux/macOS
-bin/kafka-topics.sh --create --topic demo-topic --bootstrap-server localhost:9092
+bin\kafka-console-consumer.bat --topic amir --from-beginning --bootstrap-server localhost:9092
 
 # Windows
-bin\windows\kafka-topics.bat --create --topic demo-topic --bootstrap-server localhost:9092
+bin\windows\kafka-console-consumer.bat --topic amir --from-beginning --bootstrap-server localhost:9092
 ```
 
 ---
