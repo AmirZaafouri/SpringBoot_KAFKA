@@ -99,20 +99,4 @@ mvn spring-boot:run
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 📁 How to Add this README
-
-1. Navigate to the `demo` directory in your GitHub repository  
-2. Click on **"Add file"** → **"Create new file"**  
-3. Name the file `README.md`  
-4. Paste this content  
-5. Click **"Commit new file"** to save it
-
----
-
 Let me know if you need help setting up Kafka or running the app!
