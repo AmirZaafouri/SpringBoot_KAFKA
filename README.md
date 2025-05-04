@@ -1,6 +1,33 @@
+markdown
+Copy
+Edit
 # SpringBoot_KAFKA
 
-This repository demonstrates how to integrate **Spring Boot** with **Apache Kafka** for learning purposes.
+This repository demonstrates how to integrate **Spring Boot** with **Apache Kafka** for learning purposes. It provides a basic example of a producer-consumer architecture using Kafka topics, partitions, and message flow between microservices.
+
+---
+
+## 📌 Project Overview
+
+This project simulates a message-driven architecture using Kafka. It includes:
+
+- A **Producer** that sends messages to Kafka topics.
+- A **Consumer** that listens to the topics and processes the messages.
+- Use of **Kafka topics, partitions, and consumer groups**.
+- Integration using **Spring Kafka** in a Spring Boot application.
+
+---
+
+## 📷 Kafka Architecture & Concepts
+
+### 🧠 Basic Kafka Concept
+![Kafka Concept](/img/kafka%20concept.jpeg)
+
+### 🔁 Kafka with Partitioning
+![Kafka Partition](/img/Kafka_Partition.jpeg)
+
+### 📦 Kafka N-Partition Model
+![Kafka N Partition](/img/Kafka-n-partition.jpeg)
 
 ---
 
@@ -90,7 +117,6 @@ mvn spring-boot:run
 ```
 
 ---
-
 
 ## ✅ Prerequisites
 
