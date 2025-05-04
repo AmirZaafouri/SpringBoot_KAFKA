@@ -23,7 +23,7 @@ This project simulates a message-driven architecture using Kafka. It includes:
 ### 🧠 Basic Kafka Concept
 ![Kafka Concept](/img/kafka%20concept.jpeg)
 
-### 🔁 Kafka with Partitioning
+### 🔁 Kafka with Topics
 ![Kafka Partition](/img/Kafka_Partition.jpeg)
 
 ### 📦 Kafka N-Partition Model
